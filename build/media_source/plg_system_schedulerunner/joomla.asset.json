@@ -8,7 +8,7 @@
     {
       "name": "plg_system_schedulerunner.run-schedule.es5",
       "type": "script",
-      "uri": "plg_system_schedulerunner/run-schedule.es5.min.js",
+      "uri": "plg_system_schedulerunner/run-schedule-es5.min.js",
       "dependencies": [
         "core"
       ],
@@ -25,9 +25,8 @@
         "plg_system_schedulerunner.run-schedule.es5",
         "core"
       ],
-      "atrributes": {
-        "nomodule": true,
-        "defer": true
+      "attributes": {
+         "type": "module"
       }
     }
   ]
